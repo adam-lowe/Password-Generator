@@ -1,0 +1,38 @@
+body {
+    background-color: #dddddd;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    background-color: white; 
+    padding: 20px; 
+    margin: 40px;
+}
+
+hr {
+    background-color: #dddddd; 
+    padding: 1px;
+}
+
+.area {
+    border: 3px dashed gray; 
+    padding: 100px; 
+    margin: 20px; 
+    width: 100%;
+}
+
+p {
+    text-align: center; 
+    color: gray;
+}
+
+a {
+    margin: 15px
+}
+
+.inactive {
+    background-color: gray;
+}
