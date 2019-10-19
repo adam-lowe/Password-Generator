@@ -1,9 +1,3 @@
-// TODO: Get password button to create prompt <Check!>
-// Get prompt that asks for (as well as validates): length of password, Confirm use of special characters, numbers, upper, lowercase <Check!>
-// Create function that generates password according to specifications...
-// Have the generated password replace the p tag in the center of the box
-// Get Copy to Clipboard button working
-
 var userInput
 
 var isUpper
@@ -84,7 +78,7 @@ function genPass() {
 
 function showPass() {
     var userPass2 = userPass.join("")
-    alert(userPass2)
+    document.getElementById("passArea").textContent= userPass2
     userPass.length = 0
     userPass2.length = 0
 }
