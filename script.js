@@ -53,7 +53,7 @@ function firmParams() {
 }
 
 function genPass() {
-    for (let i = 0; i === userInput; i++) {
+    for (var i = 0; i === userInput; i++) {
         if (isUpper) {
             userPass.push(arrayUpper[Math.floor(Math.random()*26)]);
         }
