@@ -6,6 +6,11 @@
 
 var userInput
 
+var isUpper
+var isLower
+var isNumber
+var isSpecial
+
 function initParams() {
     userInput = parseInt(prompt("Enter desired password length (it must be 8-128 characters)"))
 
@@ -23,10 +28,10 @@ function initParams() {
 }
 
 function firmParams() {
-    var isUpper = confirm("Do you want your password to have uppercase letters?")
-    var isLower = confirm("Do you want your password to have lowercase letters?")
-    var isNumber = confirm("Do you want your password to have numeric characters?")
-    var isSpecial = confirm("Do you want your password to have special characters?")
+    isUpper = confirm("Do you want your password to have uppercase letters?")
+    isLower = confirm("Do you want your password to have lowercase letters?")
+    isNumber = confirm("Do you want your password to have numeric characters?")
+    isSpecial = confirm("Do you want your password to have special characters?")
 
     if (isUpper || isLower || isNumber || isSpecial) {
         console.log("Function will run Here!")
