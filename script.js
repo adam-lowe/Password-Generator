@@ -41,6 +41,7 @@ function firmParams() {
     isSpecial = confirm("Do you want your password to have special characters?")
 
     if (isUpper || isLower || isNumber || isSpecial) {
+        alert("We will generate your pass in a second")
         genPass();
 
     }
@@ -52,5 +53,19 @@ function firmParams() {
 }
 
 function genPass() {
-    
+    for (let i = 0; i === userInput; i++) {
+        if (isUpper) {
+            userPass.push(arrayUpper[Math.floor(Math.random()*26)]);
+        }
+        else if (isLower) {
+            userPass.push(arrayLower[Math.floor(Math.random()*26)]);
+        }
+        else if (isNumber) {
+            userPass.push(arrayNumber[Math.floor(Math.random()*10)]);
+        }
+        else if (isSpecial) {
+            userPass.push(arraySpecial[Math.floor(Math.random()*26)]);
+        }
+    }
+    alert(userPass)
 }
