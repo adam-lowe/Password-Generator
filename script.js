@@ -66,7 +66,11 @@ function genPass() {
         if (isSpecial) {
             userPass.push(arraySpecial[Math.floor(Math.random()*26)]);
         }
+    showPass()
     }
+function showPass() {
     var userPass2 = userPass.join("")
     alert(userPass2)
+    userPass.length = 0
+    userPass2.length = 0
 }
