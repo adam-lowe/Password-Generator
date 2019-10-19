@@ -53,19 +53,20 @@ function firmParams() {
 }
 
 function genPass() {
-    for (var i = 0; i === userInput; i++) {
+    for (var i = 0; i < userInput; i++) {
         if (isUpper) {
             userPass.push(arrayUpper[Math.floor(Math.random()*26)]);
         }
-        else if (isLower) {
+        if (isLower) {
             userPass.push(arrayLower[Math.floor(Math.random()*26)]);
         }
-        else if (isNumber) {
+        if (isNumber) {
             userPass.push(arrayNumber[Math.floor(Math.random()*10)]);
         }
-        else if (isSpecial) {
+        if (isSpecial) {
             userPass.push(arraySpecial[Math.floor(Math.random()*26)]);
         }
     }
-    alert(userPass)
+    var userPass2 = userPass.join("")
+    alert(userPass2)
 }
