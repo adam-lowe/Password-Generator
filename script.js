@@ -80,6 +80,7 @@ function showPass() {
     var userPass2 = userPass.join("")
     document.getElementById("passArea").textContent= userPass2
     document.getElementById("clip").setAttribute("style", "background-color: #dc3545")
+    document.getElementById("clip").setAttribute("onclick", "clipCopy();")
     userPass.length = 0
     userPass2.length = 0
 }
