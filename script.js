@@ -79,10 +79,22 @@ function genPass() {
 function showPass() {
     var userPass2 = userPass.join("")
 
-    document.getElementById("passArea").textContent= userPass2
+    document.getElementById("passArea").value= userPass2
     document.getElementById("clip").setAttribute("style", "background-color: #dc3545")
     document.getElementById("clip").setAttribute("onclick", "clipCopy();")
 
     userPass.length = 0
     userPass2.length = 0
+}
+
+function clipCopy() {
+  var copyText = document.getElementById("passArea");
+//   var copyText = document.getElementById("myInput");
+
+//   copyText.select();
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+
+  document.execCommand("copy");
+
 }
