@@ -89,9 +89,7 @@ function showPass() {
 
 function clipCopy() {
   var copyText = document.getElementById("passArea");
-//   var copyText = document.getElementById("myInput");
 
-//   copyText.select();
   copyText.select();
   copyText.setSelectionRange(0, 99999);
 
