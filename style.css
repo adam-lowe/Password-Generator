@@ -16,6 +16,15 @@ h1 {
     text-align: center;
 }
 
+input {
+    border: 0;
+    color: gray;
+}
+
+input:focus {
+    outline:none;
+}
+
 hr {
     background-color: #dddddd; 
     padding: 1px;
