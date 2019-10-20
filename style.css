@@ -12,6 +12,10 @@ h1 {
     margin: 1%;
 }
 
+#passArea {
+    text-align: center;
+}
+
 hr {
     background-color: #dddddd; 
     padding: 1px;
