@@ -1,6 +1,6 @@
-# Homework 3 - Password Generator
+# Password Generator
 
-This repo is for the UNCC coding bootcamp's third homework assignment
+This repo is for the UNCC coding bootcamp
 
 ## Instructions
 
