@@ -16,4 +16,4 @@ As a bonus; To create a working "Copy to Clipboard" button that directly copy's 
 
 [Github Repo](https://github.com/Goldpm/HW3-Password-Generator)
 
-[Completed Work](https://goldpm.github.io/HW3-Password-Generator/)
+[Completed Work](https://goldpm.github.io/Password-Generator/)
